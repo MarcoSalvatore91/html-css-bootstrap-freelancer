@@ -1,9 +1,14 @@
 header {
-    height: 100px;
+    height: 50px;
     background-color: lightblue;
 }
 
 .sub-header {
-    height: 500px;
+    height: 400px;
     background-color: lightcoral;
+}
+
+main .img-main {
+    background-color: lightgreen;
+    min-height: 2500px;
 }
