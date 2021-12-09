@@ -12,3 +12,8 @@ main .img-main {
     background-color: lightgreen;
     min-height: 2500px;
 }
+
+.main-info {
+    min-height: 1000px;
+    background-color: lightslategrey;
+}
