@@ -13,36 +13,34 @@ main .img-main {
 }
 
 main .img-main .img-h {
-    height: 300px;
+    min-height: 250px;
 }
 
 .main-info {
-    min-height: 300px;
     background-color: lightslategrey;
 }
 
 .main-info .main-info-h{
-    min-height: 300px;
+    height: 350px;
 }
 
 .contact {
-    min-height: 500px;
     background-color: limegreen;
 }
 
 .contact .contact-h {
-    min-height: 500px;
+    height: 400px;
 }
 
-footer .foot {
-    height: 500px;
+footer .social {
     background-color: lightyellow;
 } 
 
-.social {
-    height: 70%;
+footer .social-h {
+    height: 150px;
 }
 
-.copyright {
-    height: 20%;
+footer .copyright {
+    height: 100px;
+    background-color: mediumorchid;
 }
