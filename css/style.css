@@ -10,12 +10,28 @@ header {
 
 main .img-main {
     background-color: lightgreen;
-    min-height: 2500px;
+}
+
+main .img-main .img-h {
+    height: 300px;
 }
 
 .main-info {
-    min-height: 1000px;
+    min-height: 300px;
     background-color: lightslategrey;
+}
+
+.main-info .main-info-h{
+    min-height: 300px;
+}
+
+.contact {
+    min-height: 500px;
+    background-color: limegreen;
+}
+
+.contact .contact-h {
+    min-height: 500px;
 }
 
 footer .foot {
