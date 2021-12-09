@@ -17,3 +17,16 @@ main .img-main {
     min-height: 1000px;
     background-color: lightslategrey;
 }
+
+footer .foot {
+    height: 500px;
+    background-color: lightyellow;
+} 
+
+.social {
+    height: 70%;
+}
+
+.copyright {
+    height: 20%;
+}
