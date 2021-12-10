@@ -1,14 +1,11 @@
-header {
-    background-color: lightblue;
-}
+/* Header */
 
-.top-header {
-    height: 50px;
+.bg-grey {
+    background-color: rgb(44,62,80);
 }
 
 .bottom-header {
     height: 400px;
-    background-color: lightcoral;
 }
 
 main .img-main {
