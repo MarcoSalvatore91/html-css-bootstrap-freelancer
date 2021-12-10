@@ -18,7 +18,7 @@
         <!-- Header -->
         <section id="head">
             <nav class="navbar navbar-expand-lg navbar-light bg-grey">
-                <div class="container-fluid">
+                <div class="container">
                   <a class="navbar-brand h3 text-white" href="#">START BOOTSTRAP</a>
                   <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -40,7 +40,7 @@
               </nav>
         </section>
         <!-- Jumbotron -->
-        <div id="jumbotron" class="bg-aqua">
+        <div id="jumbotron">
             <div class="card border-0 bg-aqua">
                 <img src="img/avatar.svg" class="card-img-top" alt="avatar">
                 <div class="card-body text-center text-white">
@@ -53,29 +53,29 @@
     </header>
     <!-- Main -->
         <main>
-            <section>
+            <section class="container">
                 <div class="text-center mt-5">
                     <h3 class="">PORTFOLIO</h3>
                     <i class="fas fa-star my-2 mb-3"></i><br>
                 </div>
-                <div class="img-main row justify-content-center px-md-5 margin-lg">
-                    <img class="col-12 col-md-6 col-lg-4 my-3 px-5 px-md-3 rounded-5" src="img/cabin.png" alt="house">
-                    <img class="col-12 col-md-6 col-lg-4 my-3 px-5 px-md-3 rounded-5" src="img/cake.png" alt="cake">
-                    <img class="col-12 col-md-6 col-lg-4 my-3 px-5 px-md-3 rounded-5" src="img/circus.png" alt="circus">
-                    <img class="col-12 col-md-6 col-lg-4 my-3 px-5 px-md-3 rounded-5" src="img/game.png" alt="game">
-                    <img class="col-12 col-md-6 col-lg-4 my-3 px-5 px-md-3 rounded-5" src="img/safe.png" alt="safe">
-                    <img class="col-12 col-md-6 col-lg-4 my-3 px-5 px-md-3 rounded-5" src="img/submarine.png" alt="submarine">
+                <div class="img-main row justify-content-center">
+                    <img class="col-12 col-md-6 col-lg-4 my-3 rounded-5" src="img/cabin.png" alt="house">
+                    <img class="col-12 col-md-6 col-lg-4 my-3 rounded-5" src="img/cake.png" alt="cake">
+                    <img class="col-12 col-md-6 col-lg-4 my-3 rounded-5" src="img/circus.png" alt="circus">
+                    <img class="col-12 col-md-6 col-lg-4 my-3 rounded-5" src="img/game.png" alt="game">
+                    <img class="col-12 col-md-6 col-lg-4 my-3 rounded-5" src="img/safe.png" alt="safe">
+                    <img class="col-12 col-md-6 col-lg-4 my-3 rounded-5" src="img/submarine.png" alt="submarine">
                 </div>
             </section>
             <!-- Main-Info -->
             <section class="main-info my-5">
                 <div class="py-5 container">
-                    <div class="text-center text-white fs-4">
+                    <div class="row text-center text-white fs-4">
                         <h3>About</h3>
                         <i class="fas fa-star my-3"></i>
                     </div>
-                    <div class="row justify-content-center text-white fw-bold fs-5">
-                        <div class="row col-9 justify-content-between">
+                    <div class="row text-white fw-bold fs-5 justify-content-center">
+                        <div class="row col-8 justify-content-between">
                             <div class="col-12 my-3 col-md-6">
                                 <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS and JavaScript as well as optional LESS stylesheets for easy customization.</p>
                             </div>
@@ -89,21 +89,41 @@
                     </div>
                 </div>
             </section>
-            <section class="contact">
-                <h3 class="text-center">Contact</h3>
+            <section class="contact container">
+                <div class="text-center">
+                    <h3>CONTACT ME</h3>
+                    <i class="fas fa-star mt-3"></i>
+                </div>
                 <div class="row justify-content-center">
-                    <div class="contact-h col-8 m-5 border border border-3"></div>
+                    <div class="col-8 mb-5">
+                        <form id="section-contact">
+                            <div class="mb-3">
+                              <input type="name" class="form-control px-0 text-dark" id="name" placeholder="Name" aria-describedby="emailHelp">
+                            </div>
+                            <div class="mb-3">
+                              <input type="email" class="form-control px-0 text-dark" id="email" placeholder="E-mail">
+                            </div>
+                            <div class="mb-3">
+                                <input type="tel" class="form-control px-0 text-dark" id="tel" placeholder="Phone Number">
+                              </div>
+                              <div class="mb-3">
+                                <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                              </div>
+                            <button type="submit" class="btn btn-primary border-0">Send</button>
+                          </form>
+                    </div>
                 </div>
             </section>
         </main>
 
         <footer>
-            <section>
+            <section class="container">
                 <div class="row justify-content-center align-items-center">
-                    <div class="social col-12 border border-primary row justify-content-center">
-                        <div class="social-h col-12 my-4 col-md-4 border border-dark border-3"></div>
-                        <div class="social-h col-12 my-4 col-md-4 border border-dark border-3"></div>
-                        <div class="social-h col-12 my-4 col-md-4 border border-dark border-3"></div>
+                    <div class="social col-12 row justify-content-center">
+                        <div class="col-12 my-4 col-md-4"></div>
+                        <div class="col-12 my-4 col-md-4"></div>
+                        <div class="col-12 my-4 col-md-4"></div>
                     </div>
                 </div>
                 <div class="row justify-content-center align-items-center">
