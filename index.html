@@ -15,11 +15,12 @@
 
     
     <header>
-        <section class="top-header">
+        <!-- Header -->
+        <section id="head">
             <nav class="navbar navbar-expand-lg navbar-light bg-grey">
-                <div class="container">
+                <div class="container-fluid">
                   <a class="navbar-brand h3 text-white" href="#">START BOOTSTRAP</a>
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                   </button>
                   <div class="collapse navbar-collapse flex-grow-0" id="navbarNav">
@@ -38,21 +39,32 @@
                 </div>
               </nav>
         </section>
-        <div class="bottom-header row justify-content-center">
-            <div class="col-11 col-col-lg-7 border"></div>
+        <!-- Jumbotron -->
+        <div id="jumbotron" class="bg-aqua">
+            <div class="card border-0 bg-aqua">
+                <img src="img/avatar.svg" class="card-img-top" alt="avatar">
+                <div class="card-body text-center text-white">
+                  <h1>START BOOTSTRAP</h1>
+                  <i class="fas fa-star my-3"></i><br>
+                  <span>GRAPHIC DESIGNER - WEB DESIGNER - ILLUSTRATOR</span>
+                </div>
+            </div>
         </div>
     </header>
-
+    <!-- Main -->
         <main>
             <section>
-                <h3 class="text-center">Title Main</h3>
-                <div class="img-main row justify-content-center">
-                    <div class="img-h col-10 col-md-5 col-lg-3 my-1 mx-md-0 mx-md-2 mx-lg-3 border border-dark border-3"></div>
-                    <div class="img-h col-10 col-md-5 col-lg-3 my-1 mx-md-0 mx-md-2 mx-lg-3 border border-dark border-3"></div>
-                    <div class="img-h col-10 col-md-5 col-lg-3 my-1 mx-md-0 mx-md-2 mx-lg-3 border border-dark border-3"></div>
-                    <div class="img-h col-10 col-md-5 col-lg-3 my-1 mx-md-0 mx-md-2 mx-lg-3 border border-dark border-3"></div>
-                    <div class="img-h col-10 col-md-5 col-lg-3 my-1 mx-md-0 mx-md-2 mx-lg-3 border border-dark border-3"></div>
-                    <div class="img-h col-10 col-md-5 col-lg-3 my-1 mx-md-0 mx-md-2 mx-lg-3 border border-dark border-3"></div>
+                <div class="text-center mt-5">
+                    <h3 class="">PORTFOLIO</h3>
+                    <i class="fas fa-star my-2 mb-3"></i><br>
+                </div>
+                <div class="img-main row justify-content-center px-md-5 margin-lg">
+                    <img class="col-12 col-md-6 col-lg-4 my-3 px-5 px-md-3 rounded-5" src="img/cabin.png" alt="house">
+                    <img class="col-12 col-md-6 col-lg-4 my-3 px-5 px-md-3 rounded-5" src="img/cake.png" alt="cake">
+                    <img class="col-12 col-md-6 col-lg-4 my-3 px-5 px-md-3 rounded-5" src="img/circus.png" alt="circus">
+                    <img class="col-12 col-md-6 col-lg-4 my-3 px-5 px-md-3 rounded-5" src="img/game.png" alt="game">
+                    <img class="col-12 col-md-6 col-lg-4 my-3 px-5 px-md-3 rounded-5" src="img/safe.png" alt="safe">
+                    <img class="col-12 col-md-6 col-lg-4 my-3 px-5 px-md-3 rounded-5" src="img/submarine.png" alt="submarine">
                 </div>
             </section>
             <section class="main-info">
