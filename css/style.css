@@ -42,11 +42,23 @@
 
 /* Footer */
 
-footer .social-h {
-    height: 150px;
+.social {
+    background-color: rgb(58,84,109);
 }
+
+.section-icon i {
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+}
+
+.social .col-12 .green {
+    color: rgb(26,188,156);
+}
+
+/* Copyright */
 
 footer .copyright {
     height: 100px;
-    background-color: mediumorchid;
+    background-color: rgb(44,62,80);
 }
