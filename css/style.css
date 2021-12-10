@@ -20,12 +20,12 @@
 
 /* Main */
 
-.main-info {
-    background-color: rgb(26,188,156);
-}
+/* Main-Info */
 
-.main-info .main-info-h{
-    height: 350px;
+.main-info, .main-info .download {
+    background-color: rgb(26,188,156);
+    border-radius: 5px;
+    cursor: pointer;
 }
 
 .contact {
