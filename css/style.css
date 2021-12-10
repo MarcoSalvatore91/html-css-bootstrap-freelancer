@@ -28,17 +28,19 @@
     cursor: pointer;
 }
 
-.contact {
-    background-color: limegreen;
+/* Contact */
+
+#section-contact .form-control {
+    border: none;
+    border-bottom: 1px solid lightgrey;
+    border-radius: 0;
 }
 
-.contact .contact-h {
-    height: 400px;
+#section-contact .btn-primary {
+    background-color: rgb(26,188,156);
 }
 
-footer .social {
-    background-color: lightyellow;
-} 
+/* Footer */
 
 footer .social-h {
     height: 150px;
@@ -47,10 +49,4 @@ footer .social-h {
 footer .copyright {
     height: 100px;
     background-color: mediumorchid;
-}
-
-@media screen and (min-width: 992px) {
-    .margin-lg {
-        margin: 0 100px;
-    }
 }
