@@ -1,23 +1,27 @@
 /* Header */
 
-.bg-grey {
+#head .bg-grey {
     background-color: rgb(44,62,80);
 }
 
-.bottom-header {
-    height: 400px;
+#head .text-white {
+    color: white;
 }
 
-main .img-main {
-    background-color: lightgreen;
+/* Jumbotron */
+
+.bg-aqua {
+    background-color: rgb(26,188,156);
 }
 
-main .img-main .img-h {
-    min-height: 250px;
+#jumbotron img {
+    width: 18rem;
 }
+
+/* Main */
 
 .main-info {
-    background-color: lightslategrey;
+    background-color: rgb(26,188,156);
 }
 
 .main-info .main-info-h{
@@ -43,4 +47,10 @@ footer .social-h {
 footer .copyright {
     height: 100px;
     background-color: mediumorchid;
+}
+
+@media screen and (min-width: 992px) {
+    .margin-lg {
+        margin: 0 100px;
+    }
 }
