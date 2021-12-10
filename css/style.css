@@ -1,9 +1,12 @@
 header {
-    height: 50px;
     background-color: lightblue;
 }
 
-.sub-header {
+.top-header {
+    height: 50px;
+}
+
+.bottom-header {
     height: 400px;
     background-color: lightcoral;
 }
