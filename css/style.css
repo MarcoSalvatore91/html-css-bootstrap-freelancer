@@ -1,11 +1,27 @@
+/* Utilities */
+
+.star {
+    height: 50px;
+}
+
+.star i {
+    font-size: 2rem;
+}
+
+.star-bar {
+    height: 5px;
+    width: 100px;
+    vertical-align: super;
+}
+
 /* Header */
 
 #head .bg-grey {
     background-color: rgb(44,62,80);
 }
 
-#head .text-white {
-    color: white;
+#head .border-white {
+    border: 1px solid white;
 }
 
 /* Jumbotron */
@@ -59,10 +75,5 @@
 /* Copyright */
 
 footer .copyright {
-    height: 100px;
     background-color: rgb(44,62,80);
-}
-
-footer .copyright span {
-    line-height: 100px;
 }
